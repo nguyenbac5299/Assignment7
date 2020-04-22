@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+    <TextView
+        android:id="@+id/text_letter"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/background"
+        android:text="T"
+        android:layout_margin="3dp"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text_letter"
+        android:text="Person1"
+        android:textSize="20sp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/text_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text_letter"
+        android:layout_below="@+id/text_name"
+        android:text="Chuc mừng bạn đã trúng 1 tỷ đồng"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:lines="2"
+        android:layout_toLeftOf="@+id/image_star"
+        />
+    <TextView
+        android:layout_margin="3dp"
+        android:id="@+id/text_time"
+        android:text="12:00 PM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:id="@+id/image_star"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_star_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+</RelativeLayout>
